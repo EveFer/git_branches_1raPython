@@ -405,4 +405,14 @@
   font-size: 16px;
   color: #ffffff;
 }
+
+h2 {
+  background: yellowgreen;
+  color: yellow;
+}
+
+p {
+  background: yellowgreen;
+  color: yellow;
+}
 /*# sourceMappingURL=style.css.map */
