@@ -1,0 +1,20 @@
+div.card.card-alex{
+    background-image: url(../img/bg_blue.jpg);
+    background-size: 100%;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        padding-right: 30px;
+    }
+    ul{
+        list-style: none;
+        span{
+            font-weight: 700;
+        }
+        li{
+            font-weight: lighter;
+        }
+    }
+}

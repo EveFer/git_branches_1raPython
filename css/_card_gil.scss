@@ -1,0 +1,13 @@
+
+.card-gil{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(3, 11, 59);
+    color: rgba(255, 255, 255, 0.74);
+    .info{
+        padding: 3%;
+    }
+    .img-gil{
+        width: 45%;  
+    }
+}
