@@ -297,4 +297,16 @@
   width: 25%;
   height: 25%;
 }
+
+h2 {
+  color: yellow;
+  background: yellowgreen;
+  text-align: center;
+}
+
+p {
+  background: yellowgreen;
+  color: yellow;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
