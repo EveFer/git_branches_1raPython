@@ -1,14 +1,60 @@
-.manu_card {
+.manu_card{
     display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: end;
+    max-width: 99%;
+    max-height: 20%;
+    /*border: 1px solid blue;*/
+    background-color: cornflowerblue;
+    border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s    
+    transition: 0.3s;
+    margin-top: 1%;
 }
 
-.MC_profile {
-    padding: 2px 16px;
+.MC_profile{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    max-width: 90%;
+    padding-left: 5%;
+    /*border: 1px solid red;*/
+    border-radius: 10px;
+    .manu_name{
+        font-size: 18px;
+    }
+    .mc_job{
+        font-size: 16px;        
+    }
+    .manu_nick{
+        font-size: 14px;
+    }
+    .manu_age{
+        font-size: 12px;
+    }
+    .manu_email{
+        text-decoration: underline;
+        font-size: 11px;
+    
+    }
 }
 
-.mc_profile_picture {
-    width: 25%;
-    height: 25%;
+.mc_profile_picture{
+    display: flex;
+    padding-left: 5%;
+    border-radius: 10px;
+    width: 38%;
+    height: 70%;
+}
+
+.main_manu{
+    /*border: 1px solid black;*/
+    display: flex;    
+    justify-content: center;
+    height: 80%;
+    width: 33%;
+    align-items: center;
+    flex-direction: column;
 }

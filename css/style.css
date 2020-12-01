@@ -66,6 +66,80 @@
   font-weight: bold;
 }
 
+.card_content {
+  background-color: lightblue;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.card_content:hover {
+  -webkit-box-shadow: 10px 5px 5px black;
+          box-shadow: 10px 5px 5px black;
+}
+
+.card_content .h-nombre {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.card_content .h-nombre:hover {
+  -webkit-box-shadow: 10px 5px 5px orange;
+          box-shadow: 10px 5px 5px orange;
+}
+
+.card_content .img-profile {
+  height: 100px;
+  width: auto;
+  border-radius: 50px;
+}
+
+.card_content .img-profile:hover {
+  -webkit-box-shadow: 10px 5px 5px purple;
+          box-shadow: 10px 5px 5px purple;
+}
+
+.card_content .h-nickname:hover {
+  -webkit-box-shadow: 10px 5px 5px yellowgreen;
+          box-shadow: 10px 5px 5px yellowgreen;
+}
+
+.card_content .p-edad:hover {
+  -webkit-box-shadow: 10px 5px 5px gold;
+          box-shadow: 10px 5px 5px gold;
+}
+
+.card_content .p-contacto:hover {
+  font-style: italic;
+}
+
+.lily {
+  border: 1px solid pink;
+  background-color: palevioletred;
+  border-radius: 15px;
+}
+
+.titulo-nombre {
+  color: purple;
+  padding: 10px;
+}
+
+.parrafo {
+  color: white;
+}
+
 .card-gil {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -107,17 +181,28 @@
   background-repeat: no-repeat;
 }
 
-.card_Nayeli {
-  background-color: hsb(311, 27, 50);
+.card_nayeli {
+  background-color: #a069ac;
   padding: 15px;
   border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.card_Nayeli_im {
+.card_nayeli_img {
   border-radius: 10px;
+  width: 100px;
+  height: auto;
 }
 
-.card_Nayeli_text {
+.card_nayeli_text {
   color: white;
 }
 
@@ -302,19 +387,117 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  max-width: 99%;
+  max-height: 20%;
+  /*border: 1px solid blue;*/
+  background-color: cornflowerblue;
+  border-radius: 10px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  margin-top: 1%;
 }
 
 .MC_profile {
-  padding: 2px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  text-align: left;
+  max-width: 90%;
+  padding-left: 5%;
+  /*border: 1px solid red;*/
+  border-radius: 10px;
+}
+
+.MC_profile .manu_name {
+  font-size: 18px;
+}
+
+.MC_profile .mc_job {
+  font-size: 16px;
+}
+
+.MC_profile .manu_nick {
+  font-size: 14px;
+}
+
+.MC_profile .manu_age {
+  font-size: 12px;
+}
+
+.MC_profile .manu_email {
+  text-decoration: underline;
+  font-size: 11px;
 }
 
 .mc_profile_picture {
-  width: 25%;
-  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 5%;
+  border-radius: 10px;
+  width: 38%;
+  height: 70%;
+}
+
+.main_manu {
+  /*border: 1px solid black;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80%;
+  width: 33%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card.emma {
+  background-image: url("../img/img-emma.PNG");
+  background-repeat: no-repeat;
+  background-size: 450px 200px;
+}
+
+.card.emma p {
+  text-align: center;
+  color: greenyellow;
+}
+
+.card .card_azu {
+  background-color: plum;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px purple;
+          box-shadow: 5px 5px purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .card_azu .imagen_azu {
+  max-width: 20%;
+  border-radius: 5px;
 }
 
 .brian {
@@ -363,5 +546,87 @@
 .brian ul li span {
   font-size: 16px;
   color: #ffffff;
+}
+
+.card_ruben h2 {
+  color: yellow;
+  background: yellowgreen;
+  text-align: center;
+}
+
+.card_ruben p {
+  background: yellowgreen;
+  color: yellow;
+  text-align: center;
+}
+
+.card.andre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #0c0c0c;
+}
+
+.card.andre h2 {
+  color: #cccccc;
+  margin: 10px;
+  font-style: normal;
+}
+
+.card.andre p {
+  color: #cccccc;
+  margin: 10px;
+  font-style: bold;
+}
+
+div.card.card-alex {
+  background-image: url(../img/bg_blue.jpg);
+  background-size: 100%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.card.card-alex img {
+  padding-right: 30px;
+}
+
+div.card.card-alex ul {
+  list-style: none;
+}
+
+div.card.card-alex ul span {
+  font-weight: 700;
+}
+
+div.card.card-alex ul li {
+  font-weight: lighter;
+}
+
+.card-silvi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 /*# sourceMappingURL=style.css.map */
