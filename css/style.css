@@ -44,4 +44,63 @@
     width: 33.3%;
   }
 }
+
+.card_content {
+  background-color: lightblue;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.card_content:hover {
+  -webkit-box-shadow: 10px 5px 5px black;
+          box-shadow: 10px 5px 5px black;
+}
+
+.card_content .h-nombre {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.card_content .h-nombre:hover {
+  -webkit-box-shadow: 10px 5px 5px orange;
+          box-shadow: 10px 5px 5px orange;
+}
+
+.card_content .img-profile {
+  height: 100px;
+  width: auto;
+  border-radius: 50px;
+}
+
+.card_content .img-profile:hover {
+  -webkit-box-shadow: 10px 5px 5px purple;
+          box-shadow: 10px 5px 5px purple;
+}
+
+.card_content .h-nickname:hover {
+  -webkit-box-shadow: 10px 5px 5px yellowgreen;
+          box-shadow: 10px 5px 5px yellowgreen;
+}
+
+.card_content .p-edad:hover {
+  -webkit-box-shadow: 10px 5px 5px gold;
+          box-shadow: 10px 5px 5px gold;
+}
+
+.card_content .p-contacto:hover {
+  font-style: italic;
+}
 /*# sourceMappingURL=style.css.map */
