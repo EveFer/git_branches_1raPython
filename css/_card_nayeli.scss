@@ -1,17 +1,18 @@
-.card_Nayeli {
-    background-color: hsb(311, 27, 50);
+.card_nayeli {
+    background-color:rgb(160, 105, 172);
     padding: 15px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.card_Nayeli_img {
+
+.card_nayeli_img {
     border-radius: 10px;
-    width: 25%;
-    height: 25%;
+    width: 100px;
+    height: auto;
 }
 
-.card_Nayeli_text {
+.card_nayeli_text {
     color: white;
 }
