@@ -415,6 +415,21 @@
           flex-direction: column;
 }
 
+.card .card_azu {
+  background-color: plum;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px purple;
+          box-shadow: 5px 5px purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .card_azu .imagen_azu {
+  max-width: 20%;
+  border-radius: 5px;
+}
+
 .brian {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -461,5 +476,46 @@
 .brian ul li span {
   font-size: 16px;
   color: #ffffff;
+}
+
+.card_ruben h2 {
+  color: yellow;
+  background: yellowgreen;
+  text-align: center;
+}
+
+.card_ruben p {
+  background: yellowgreen;
+  color: yellow;
+  text-align: center;
+}
+
+.card.andre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #0c0c0c;
+}
+
+.card.andre h2 {
+  color: #cccccc;
+  margin: 10px;
+  font-style: normal;
+}
+
+.card.andre p {
+  color: #cccccc;
+  margin: 10px;
+  font-style: bold;
 }
 /*# sourceMappingURL=style.css.map */
