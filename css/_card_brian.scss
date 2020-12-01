@@ -1,0 +1,35 @@
+.brian{
+
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+}
+.contenido-texto{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.brian img{
+    opacity: 0.5;
+    max-width: 200px;
+    transition: opacity 400ms ease-in;
+}
+.brian img:hover{
+    opacity: 1;
+}
+.brian h1{
+    font-size: 34px;
+    color: #2EDEA1;
+    margin-top: 10px;
+}
+.brian ul{
+    list-style: none;
+    color: white;
+}
+.brian ul li{
+    font-size: 13px;
+    color: #2EDEA1;
+}
+.brian ul li span{
+    font-size: 16px;
+    color: #ffffff;
+}
