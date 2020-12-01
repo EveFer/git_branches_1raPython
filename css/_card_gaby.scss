@@ -1,0 +1,24 @@
+.present_gabs {
+    display: flex;
+    background:#F9EBEA; 
+    align-items: center ;
+    font-family: sans-serif;
+    img{
+        max-width: 40%;
+        border-radius: 50%;
+    }
+    .data_gabs{
+        padding-left: 0.5rem;
+        .name_profile{
+            padding-bottom: 0.5rem; 
+            color: #800000 ;
+        }
+        p{
+            padding-bottom: 0.5rem;
+            .information{
+                color:black;
+            }
+        }
+    }
+}
+

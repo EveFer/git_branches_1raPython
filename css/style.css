@@ -640,4 +640,37 @@ div.card.card-alex ul li {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+
+.present_gabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #F9EBEA;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: sans-serif;
+}
+
+.present_gabs img {
+  max-width: 40%;
+  border-radius: 50%;
+}
+
+.present_gabs .data_gabs {
+  padding-left: 0.5rem;
+}
+
+.present_gabs .data_gabs .name_profile {
+  padding-bottom: 0.5rem;
+  color: #800000;
+}
+
+.present_gabs .data_gabs p {
+  padding-bottom: 0.5rem;
+}
+
+.present_gabs .data_gabs p .information {
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */
