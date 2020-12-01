@@ -103,23 +103,34 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.caos_card .contenedor_oscar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: auto;
-      align-content: auto;
-  text-align: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: right;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: greenyellow;
+  color: #3e3ef3;
   font-size: 20px;
-  background-image: url("../img/20150621_163048.jpg");
-  background-size: 70%;
-  background-position-x: center;
-  background-repeat: no-repeat;
+  background: mediumturquoise;
+}
+
+.img_oscar {
+  position: relative;
+  width: 20%;
+  border-radius: 10px;
+  margin-right: 1em;
+  border: 3px solid black;
 }
 
 .card_nayeli {
