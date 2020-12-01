@@ -44,4 +44,42 @@
     width: 33.3%;
   }
 }
+
+.mario-card {
+  background-color: black;
+  background-image: url(../img/foto.jpg);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: red;
+  margin: 5px;
+  text-align: center;
+  font-size: x-large;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mario-card header {
+  width: 50%;
+  background-color: #147a7e;
+  border-radius: 5%;
+}
+
+.mario-card header:hover {
+  background-color: blue;
+}
+
+.mario-card section {
+  font-weight: bold;
+  font-size: x-large;
+  color: #1d0bc0;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,37 @@
+.mario-card{
+    background-color: black;
+    background-image: url(../img/foto.jpg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    color: red;
+    margin: 5px;
+    text-align: center;
+    font-size: x-large;
+    flex-direction: column;
+    align-items: center;
+    header{
+        
+        width: 50%;
+        background-color: rgb(20, 122, 126);
+        border-radius: 5%;
+
+
+
+    }
+    header:hover{
+        
+       background-color: blue;
+
+
+
+    }
+    section{
+        font-weight: bold;
+        font-size: x-large;
+        color: rgb(29, 11, 192);
+
+    }
+   
+}
