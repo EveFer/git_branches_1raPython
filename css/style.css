@@ -364,4 +364,35 @@
   font-size: 16px;
   color: #ffffff;
 }
+
+div.card.card-alex {
+  background-image: url(../img/bg_blue.jpg);
+  background-size: 100%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.card.card-alex img {
+  padding-right: 30px;
+}
+
+div.card.card-alex ul {
+  list-style: none;
+}
+
+div.card.card-alex ul span {
+  font-weight: 700;
+}
+
+div.card.card-alex ul li {
+  font-weight: lighter;
+}
 /*# sourceMappingURL=style.css.map */
