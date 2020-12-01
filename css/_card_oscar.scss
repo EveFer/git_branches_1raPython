@@ -1,7 +1,14 @@
 .caos_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: auto;
+    text-align: auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: blue;
-    background-image: url("../img/Oscarin.JPG");
+    color: greenyellow;
+    
+    font-size: 20px;
+    background-image: url("../img/20150621_163048.jpg");
     background-size: 70%;
     background-position-x: center;
     background-repeat: no-repeat;

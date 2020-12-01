@@ -46,9 +46,23 @@
 }
 
 .caos_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: auto;
+      align-content: auto;
+  text-align: auto;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: blue;
-  background-image: url("../img/Oscarin.JPG");
+  color: greenyellow;
+  font-size: 20px;
+  background-image: url("../img/20150621_163048.jpg");
   background-size: 70%;
   background-position-x: center;
   background-repeat: no-repeat;
