@@ -46,7 +46,11 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .brian {
+=======
+.cardAlePaez {
+>>>>>>> develop
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,6 +58,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+<<<<<<< HEAD
   background-color: #000000;
 }
 
@@ -93,6 +98,44 @@
   font-size: 16px;
   color: #ffffff;
 =======
+=======
+}
+
+.cardAlePaez .contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  width: 50%;
+}
+
+.cardAlePaez h2 {
+  font-size: 24px;
+  font-style: italic;
+  color: red;
+  text-align: center;
+}
+
+.cardAlePaez p {
+  font-size: 20px;
+  font-style: oblique;
+  color: blue;
+  text-align: center;
+  background-color: black;
+}
+
+.cardAlePaez .profile {
+  text-align: center;
+  width: 40%;
+}
+
+>>>>>>> develop
 .manu_card {
   display: -webkit-box;
   display: -ms-flexbox;
