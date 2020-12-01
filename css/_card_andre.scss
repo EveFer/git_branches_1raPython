@@ -1,0 +1,24 @@
+.card.andre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(12, 12, 12);
+
+
+    h2 {
+        color: rgb(204, 204, 204);
+        margin: 10px;
+        font-style: normal;
+
+    }
+
+    p {
+        color: rgb(204, 204, 204);
+        margin: 10px;
+        font-style: bold;
+
+
+    }
+
+}

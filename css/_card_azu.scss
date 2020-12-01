@@ -1,0 +1,12 @@
+.card {
+    .card_azu{
+        background-color: plum;
+        border-radius: 5px;
+        box-shadow: 5px 5px purple;
+        display: flex;
+        .imagen_azu{
+            max-width: 20%;
+            border-radius: 5px;
+        }
+    }
+}

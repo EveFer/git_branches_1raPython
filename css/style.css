@@ -66,6 +66,87 @@
   font-weight: bold;
 }
 
+.lily {
+  border: 1px solid pink;
+  background-color: palevioletred;
+  border-radius: 15px;
+}
+
+.titulo-nombre {
+  color: purple;
+  padding: 10px;
+}
+
+.parrafo {
+  color: white;
+}
+
+.card-gil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #030b3b;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.card-gil .info {
+  padding: 3%;
+}
+
+.card-gil .img-gil {
+  width: 45%;
+}
+
+.caos_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: auto;
+      align-content: auto;
+  text-align: auto;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: greenyellow;
+  font-size: 20px;
+  background-image: url("../img/20150621_163048.jpg");
+  background-size: 70%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+
+.card_nayeli {
+  background-color: #a069ac;
+  padding: 15px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card_nayeli_img {
+  border-radius: 10px;
+  width: 100px;
+  height: auto;
+}
+
+.card_nayeli_text {
+  color: white;
+}
+
 .base {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -166,7 +247,7 @@
   font-weight: bold;
 }
 
-.card {
+.card-zayra {
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -185,16 +266,16 @@
           align-items: center;
 }
 
-.card .portrait-zay {
+.card-zayra .portrait-zay {
   max-width: 100px;
 }
 
-.card h4 {
+.card-zayra .title-zay {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 25px;
 }
 
-.card p {
+.card-zayra .text-zay {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 15px;
 }
@@ -247,22 +328,26 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  max-width: 99%;
+  max-height: 20%;
+  /*border: 1px solid blue;*/
+  background-color: cornflowerblue;
+  border-radius: 10px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  margin-top: 1%;
 }
 
 .MC_profile {
-  padding: 2px 16px;
-}
-
-.mc_profile_picture {
-  width: 25%;
-  height: 25%;
-}
-
-.caos_card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -270,155 +355,64 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: auto;
-      align-content: auto;
-  text-align: auto;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: greenyellow;
-  font-size: 20px;
-  background-image: url("../img/20150621_163048.jpg");
-  background-size: 70%;
-  background-position-x: center;
-  background-repeat: no-repeat;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  text-align: left;
+  max-width: 90%;
+  padding-left: 5%;
+  /*border: 1px solid red;*/
+  border-radius: 10px;
 }
 
-.card.juan {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.MC_profile .manu_name {
+  font-size: 18px;
 }
 
-.card.juan .card-juan-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  background-color: #28b0c7;
-  border-radius: 1em;
+.MC_profile .mc_job {
+  font-size: 16px;
 }
 
-.card.juan .card-juan-container img.juan {
-  position: relative;
-  width: 30%;
-  border-radius: 5px;
-  margin-right: 1em;
-  border: 3px solid gray;
+.MC_profile .manu_nick {
+  font-size: 14px;
 }
 
-.card.juan .card-juan-container p {
+.MC_profile .manu_age {
+  font-size: 12px;
+}
+
+.MC_profile .manu_email {
   text-decoration: underline;
-}
-
-.card.juan .card-juan-container span.negritas {
-  font-weight: bold;
-}
-
-.card {
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.card .portrait-zay {
-  max-width: 100px;
-}
-
-.card h4 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 25px;
-}
-
-.card p {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 15px;
-}
-
-.cardAlePaez {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.cardAlePaez .contenido {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: space-between;
-      -ms-flex-align: space-between;
-          align-items: space-between;
-  width: 50%;
-}
-
-.cardAlePaez h2 {
-  font-size: 24px;
-  font-style: italic;
-  color: red;
-  text-align: center;
-}
-
-.cardAlePaez p {
-  font-size: 20px;
-  font-style: oblique;
-  color: blue;
-  text-align: center;
-  background-color: black;
-}
-
-.cardAlePaez .profile {
-  text-align: center;
-  width: 40%;
-}
-
-.manu_card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.MC_profile {
-  padding: 2px 16px;
+  font-size: 11px;
 }
 
 .mc_profile_picture {
-  width: 25%;
-  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 5%;
+  border-radius: 10px;
+  width: 38%;
+  height: 70%;
+}
+
+.main_manu {
+  /*border: 1px solid black;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80%;
+  width: 33%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .card.emma {
@@ -430,5 +424,109 @@
 .card.emma p {
   text-align: center;
   color: greenyellow;
+}
+
+.card .card_azu {
+  background-color: plum;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px purple;
+          box-shadow: 5px 5px purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .card_azu .imagen_azu {
+  max-width: 20%;
+  border-radius: 5px;
+}
+
+.brian {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #000000;
+}
+
+.contenido-texto {
+  margin-left: 10px;
+  margin-top: 14px;
+}
+
+.brian img {
+  opacity: 0.5;
+  max-width: 200px;
+  -webkit-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+}
+
+.brian img:hover {
+  opacity: 1;
+}
+
+.brian h1 {
+  font-size: 34px;
+  color: #2EDEA1;
+  margin-top: 10px;
+}
+
+.brian ul {
+  list-style: none;
+  color: white;
+}
+
+.brian ul li {
+  font-size: 13px;
+  color: #2EDEA1;
+}
+
+.brian ul li span {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.card_ruben h2 {
+  color: yellow;
+  background: yellowgreen;
+  text-align: center;
+}
+
+.card_ruben p {
+  background: yellowgreen;
+  color: yellow;
+  text-align: center;
+}
+
+.card.andre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #0c0c0c;
+}
+
+.card.andre h2 {
+  color: #cccccc;
+  margin: 10px;
+  font-style: normal;
+}
+
+.card.andre p {
+  color: #cccccc;
+  margin: 10px;
+  font-style: bold;
 }
 /*# sourceMappingURL=style.css.map */
