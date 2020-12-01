@@ -44,4 +44,10 @@
     width: 33.3%;
   }
 }
+
+.card h2 {
+  color: yellow;
+  background: yellowgreen;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
