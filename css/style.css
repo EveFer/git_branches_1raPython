@@ -45,12 +45,6 @@
   }
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-.brian {
-=======
-=======
 .present-fer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -72,11 +66,20 @@
   font-weight: bold;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> develop
-=======
-=======
+.card_Nayeli {
+  background-color: hsb(311, 27, 50);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card_Nayeli_im {
+  border-radius: 10px;
+}
+
+.card_Nayeli_text {
+  color: white;
+}
+
 .card.juan {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -117,7 +120,6 @@
   font-weight: bold;
 }
 
->>>>>>> develop
 .card {
   padding: 0;
   display: -webkit-box;
@@ -151,9 +153,7 @@
   font-size: 15px;
 }
 
->>>>>>> develop
 .cardAlePaez {
->>>>>>> develop
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,47 +161,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-<<<<<<< HEAD
-  background-color: #000000;
-}
-
-.contenido-texto {
-  margin-left: 10px;
-  margin-top: 15px;
-}
-
-.brian img {
-  opacity: 0.5;
-  max-width: 200px;
-  -webkit-transition: opacity 400ms ease-in;
-  transition: opacity 400ms ease-in;
-}
-
-.brian img:hover {
-  opacity: 1;
-}
-
-.brian h1 {
-  font-size: 34px;
-  color: #2EDEA1;
-  margin-top: 10px;
-}
-
-.brian ul {
-  list-style: none;
-  color: white;
-}
-
-.brian ul li {
-  font-size: 13px;
-  color: #2EDEA1;
-}
-
-.brian ul li span {
-  font-size: 16px;
-  color: #ffffff;
-=======
-=======
 }
 
 .cardAlePaez .contenido {
@@ -238,7 +197,6 @@
   width: 40%;
 }
 
->>>>>>> develop
 .manu_card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -256,6 +214,53 @@
 .mc_profile_picture {
   width: 25%;
   height: 25%;
->>>>>>> develop
+}
+
+.brian {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #000000;
+}
+
+.contenido-texto {
+  margin-left: 10px;
+  margin-top: 14px;
+}
+
+.brian img {
+  opacity: 0.5;
+  max-width: 200px;
+  -webkit-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+}
+
+.brian img:hover {
+  opacity: 1;
+}
+
+.brian h1 {
+  font-size: 34px;
+  color: #2EDEA1;
+  margin-top: 10px;
+}
+
+.brian ul {
+  list-style: none;
+  color: white;
+}
+
+.brian ul li {
+  font-size: 13px;
+  color: #2EDEA1;
+}
+
+.brian ul li span {
+  font-size: 16px;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
