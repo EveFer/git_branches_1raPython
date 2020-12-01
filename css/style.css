@@ -44,4 +44,18 @@
     width: 33.3%;
   }
 }
+
+.lily {
+  border: 1px solid pink;
+  background-color: palevioletred;
+}
+
+.titulo-nombre {
+  color: purple;
+  padding: 10px;
+}
+
+.parrafo {
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
