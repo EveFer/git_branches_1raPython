@@ -66,17 +66,31 @@
   font-weight: bold;
 }
 
-.cardAlePaez {
+/*@import 'card_AlePaez';*/
+.manu_card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  max-width: 99%;
+  max-height: 20%;
+  /*border: 1px solid blue;*/
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-top: 1%;
 }
 
-.cardAlePaez .contenido {
+.MC_profile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,48 +98,63 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: space-between;
-      -ms-flex-align: space-between;
-          align-items: space-between;
-  width: 50%;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  text-align: left;
+  max-width: 90%;
+  padding-left: 5%;
+  /*border: 1px solid red;*/
+  border-radius: 10px;
 }
 
-.cardAlePaez h2 {
-  font-size: 24px;
-  font-style: italic;
-  color: red;
-  text-align: center;
+.MC_profile .manu_name {
+  font-size: 18px;
 }
 
-.cardAlePaez p {
-  font-size: 20px;
-  font-style: oblique;
-  color: blue;
-  text-align: center;
-  background-color: black;
+.MC_profile .mc_job {
+  font-size: 16px;
 }
 
-.cardAlePaez .profile {
-  text-align: center;
-  width: 40%;
+.MC_profile .manu_nick {
+  font-size: 14px;
 }
 
-.manu_card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+.MC_profile .manu_age {
+  font-size: 12px;
 }
 
-.MC_profile {
-  padding: 2px 16px;
+.MC_profile .manu_email {
+  text-decoration: underline;
+  font-size: 11px;
 }
 
 .mc_profile_picture {
-  width: 25%;
-  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 5%;
+  border-radius: 10px;
+  width: 38%;
+  height: 70%;
+}
+
+.main_manu {
+  /*border: 1px solid black;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80%;
+  width: 33%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=style.css.map */
