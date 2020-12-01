@@ -122,17 +122,28 @@
   background-repeat: no-repeat;
 }
 
-.card_Nayeli {
-  background-color: hsb(311, 27, 50);
+.card_nayeli {
+  background-color: #a069ac;
   padding: 15px;
   border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.card_Nayeli_im {
+.card_nayeli_img {
   border-radius: 10px;
+  width: 100px;
+  height: auto;
 }
 
-.card_Nayeli_text {
+.card_nayeli_text {
   color: white;
 }
 
