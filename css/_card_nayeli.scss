@@ -2,9 +2,14 @@
     background-color: hsb(311, 27, 50);
     padding: 15px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.card_Nayeli_im {
+.card_Nayeli_img {
     border-radius: 10px;
+    width: 25%;
+    height: 25%;
 }
 
 .card_Nayeli_text {
