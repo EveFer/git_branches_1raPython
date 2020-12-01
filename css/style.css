@@ -45,9 +45,27 @@
   }
 }
 
-<<<<<<< HEAD
 .present-fer {
-=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.present-fer span {
+  color: red;
+  font-weight: bold;
+}
+
 .cardAlePaez {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,7 +77,6 @@
 }
 
 .cardAlePaez .contenido {
->>>>>>> develop
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,19 +84,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-<<<<<<< HEAD
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.present-fer span {
-  color: purple;
-  font-weight: bold;
-=======
   -webkit-box-align: space-between;
       -ms-flex-align: space-between;
           align-items: space-between;
@@ -123,6 +127,5 @@
 .mc_profile_picture {
   width: 25%;
   height: 25%;
->>>>>>> develop
 }
 /*# sourceMappingURL=style.css.map */
