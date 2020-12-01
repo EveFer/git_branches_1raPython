@@ -44,4 +44,44 @@
     width: 33.3%;
   }
 }
+
+.card.juan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card.juan .card-juan-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: #28b0c7;
+  border-radius: 1em;
+}
+
+.card.juan .card-juan-container img.juan {
+  position: relative;
+  width: 30%;
+  border-radius: 5px;
+  margin-right: 1em;
+  border: 3px solid gray;
+}
+
+.card.juan .card-juan-container p {
+  text-decoration: underline;
+}
+
+.card.juan .card-juan-container span.negritas {
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */

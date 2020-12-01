@@ -1,0 +1,25 @@
+.card.juan {
+    display: flex;
+    align-items: center;
+    .card-juan-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #28b0c7;
+        border-radius: 1em;
+        img.juan {
+            position: relative;
+            width: 30%;
+            border-radius: 5px;
+            margin-right: 1em;
+            border: 3px solid gray
+        }
+        p {
+            text-decoration: underline;
+        }
+        span.negritas {
+            font-weight: bold;
+        }
+    }
+}
