@@ -420,4 +420,15 @@
   width: 25%;
   height: 25%;
 }
+
+.card.emma {
+  background-image: url("../img/img-emma.PNG");
+  background-repeat: no-repeat;
+  background-size: 450px 200px;
+}
+
+.card.emma p {
+  text-align: center;
+  color: greenyellow;
+}
 /*# sourceMappingURL=style.css.map */
