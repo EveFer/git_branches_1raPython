@@ -1,4 +1,4 @@
-.card{
+.card-zayra{
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -10,12 +10,12 @@
         max-width: 100px;
     }
 
-    h4{
+    .title-zay{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 25px;
     }
 
-    p{
+    .text-zay{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 15px;
 }
