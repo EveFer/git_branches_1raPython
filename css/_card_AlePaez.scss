@@ -1,0 +1,31 @@
+.cardAlePaez {
+
+    display: flex;
+    flex-direction: row;
+    
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        width: 50%;
+    }
+    h2 {
+        font-size: 24px;
+        font-style: italic;
+        color: $title_color;
+        text-align: center;
+    }
+
+    p {
+        font-size: 20px;
+        font-style: oblique;
+        color: $paragraph_color;
+        text-align: center;
+        background-color: black;
+    }
+
+    .profile {
+        text-align: center;
+        width: 40%;
+    }
+}
