@@ -66,6 +66,21 @@
   font-weight: bold;
 }
 
+.lily {
+  border: 1px solid pink;
+  background-color: palevioletred;
+  border-radius: 15px;
+}
+
+.titulo-nombre {
+  color: purple;
+  padding: 10px;
+}
+
+.parrafo {
+  color: white;
+}
+
 .card-gil {
   display: -webkit-box;
   display: -ms-flexbox;
