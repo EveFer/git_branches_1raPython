@@ -50,5 +50,7 @@
   color: blue;
   background-image: url("../img/Oscarin.JPG");
   background-size: 70%;
+  background-position-x: center;
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=style.css.map */
