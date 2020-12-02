@@ -673,4 +673,24 @@ div.card.card-alex ul li {
 .present_gabs .data_gabs p .information {
   color: black;
 }
+
+.card_mike {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.card_mike .img_mike {
+  width: 40%;
+}
+
+.card_mike p {
+  color: blue;
+  background: gray;
+  text-align: right;
+}
 /*# sourceMappingURL=style.css.map */

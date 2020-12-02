@@ -1,0 +1,17 @@
+.card_mike{
+    display: flex;
+    flex-direction: row;
+
+    .img_mike{
+        width: 40%;
+        
+    }
+
+
+    p{
+        color: blue;
+        background: gray;
+        text-align: right;
+    }
+    
+}
