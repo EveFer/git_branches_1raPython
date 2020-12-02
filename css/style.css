@@ -657,6 +657,12 @@ div.card.card-alex ul li {
   border-radius: 50%;
 }
 
+@media only screen and (min-width: 768px) {
+  .present_gabs img {
+    max-width: 25%;
+  }
+}
+
 .present_gabs .data_gabs {
   padding-left: 0.5rem;
 }

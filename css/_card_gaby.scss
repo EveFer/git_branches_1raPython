@@ -6,9 +6,13 @@
     img{
         max-width: 40%;
         border-radius: 50%;
+        @include responsive(tablet) {
+            max-width: 25%;
+        }
     }
     .data_gabs{
         padding-left: 0.5rem;
+
         .name_profile{
             padding-bottom: 0.5rem; 
             color: #800000 ;
